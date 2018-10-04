@@ -31,3 +31,5 @@ html = displacy.render(doc, style='dep', page=True)
 
 Not useful for identifying complex "sedition speech", very good at identifying part of text
 citation vs body of text 
+
+![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola2.jpeg "A simple neural network")
