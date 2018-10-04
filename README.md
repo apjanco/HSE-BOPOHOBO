@@ -5,13 +5,20 @@
 ### Neural networks 
 ![alt text](http://neuralnetworksanddeeplearning.com/images/tikz1.png "A simple neural network")
 
-1. Automated Learning
+1. Automated Learning. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 1. Machine Learning vs Pattern Matching vs Linear/non-linear Regression
-1. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
+
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
 
+What are neural networks good for? 
+| Simulation   | Minimum (work weeks) | Average (work weeks) | Maximum (work weeks) |   |
+|--------------|:--------------------:|----------------------|----------------------|---|
+| Benchmark    | 18.56                | 1402.60              | 3752.23              |   |
+| Simple MC    | 48.95                | 2000.28              | 5000.12              |   |
+| Irregular MC | 22.57                | 2142.54              | 5432.75              |   |
 
+---
 
 _Web Applications for Machine Learning_
 
