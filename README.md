@@ -35,7 +35,7 @@ _Machine Learning APIs_ ~
 
 _Distant Viewing_
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OjaY1ZCAAUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/OjaY1ZCAAUc/0.jpg)](http://www.youtube.com/watch?v=OjaY1ZCAAUc "")
 
 - [Distant Viewing Toolkit](https://github.com/distant-viewing/dvt)
 - [Distant Viewing Tutorial](https://github.com/statsmaths/distant-viewing-tutorial)
