@@ -1,6 +1,6 @@
-## Quick experiments with :sparkles:Prodigy and [КРАМОЛА. Инакомыслие в СССР при Хрущеве и Брежневе.](http://www.e-reading.club/bookreader.php/1034359/KRAMOLA._Inakomyslie_v_SSSR_pri_Hruscheve_i_Brezhneve..html)(a text that I know well because I translated it).
+## Quick experiments with :sparkles:Prodigy and [КРАМОЛА. Инакомыслие в СССР при Хрущеве и Брежневе](http://www.e-reading.club/bookreader.php/1034359/KRAMOLA._Inakomyslie_v_SSSR_pri_Hruscheve_i_Brezhneve..html)(a text that I know well because I translated it).
 ## Experiment #1
-* Steps to teach the model a new category -- Kramola.  Can the model learn to identify sedition text? 
+* Steps to teach the model a new category -- Kramola.  Can the model learn to identify sedition? 
 1. Create a dataset to store your annotations. <br>
   `prodigy dataset kramola "Data for Kramola"`
 1. Download the spaCy [multi-language model](https://spacy.io/models/xx) which includes Russian. <br>
@@ -36,7 +36,7 @@ html = displacy.render(doc, style='dep', page=True)
 ```
 
 Outcome:
-- High accuracy 96%.  Unable to identify "sedition speech", but extremely good at identifying manuscript format.  I can differentiate between the introductory sections and focuses only on the primary sources.  A very effective tool to separate the primary text from the book.
+- High accuracy 96%.  Unable to identify "sedition speech", but extremely good at identifying the manuscript format.  I can differentiate between the introductory sections and focuses only on the primary sources.  A very effective tool to separate the primary text from the book.
 
 ## Experiment #2
 Train the model on new entities.  Can the model learn to identify имя, отчество, and/or фамилия?
