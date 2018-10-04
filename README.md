@@ -1,13 +1,13 @@
 # HSE-BOPOHOBO
 
 
-Mia Ridge, [Trying computational data generation and entity extraction](http://www.openobjects.org.uk/2017/02/trying-computational-data-generation-and-entity-extraction/)
- _Machine Learning APIs ~_
+Mia Ridge, [Trying computational data generation and entity extraction](http://www.openobjects.org.uk/2017/02/trying-computational-data-generation-and-entity-extraction/)[ru](https://translate.google.com/translate?sl=en&tl=ru&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fwww.openobjects.org.uk%2F2017%2F02%2Ftrying-computational-data-generation-and-entity-extraction%2F&edit-text=&act=url)
+ *Machine Learning APIs ~
  
  
 - [Deep Learning Playground](http://104.131.28.158)
 
-_Active Transfer Learning ~_
+*Active Transfer Learning ~
 
 - [Prodigy](https://prodi.gy/demo?view_id=ner)
 
