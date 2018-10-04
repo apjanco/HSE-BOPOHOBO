@@ -1,6 +1,6 @@
 ## Quick experiments with :sparkles:Prodigy and [КРАМОЛА. Инакомыслие в СССР при Хрущеве и Брежневе.](http://www.e-reading.club/bookreader.php/1034359/KRAMOLA._Inakomyslie_v_SSSR_pri_Hruscheve_i_Brezhneve..html)(a text that I know well because I translated it).
 ## Experiment #1
-* example workflow for categorization task
+* Steps to teach the model a new category -- Kramola.  Can the model learn to identify sedition text? 
 1. Create a dataset to store your annotations. <br>
   `prodigy dataset kramola "Data for Kramola"`
 1. Download the spaCy [multi-language model](https://spacy.io/models/xx) which includes Russian. <br>
@@ -23,7 +23,7 @@ Dropout: 0.2  Batch size: 10  Iterations: 10  Samples: 4
 100%       0.98       -0.01 
 ```
 
-Test the model 
+Test the model: 
 ```python
 import spacy
 from spacy import displacy
@@ -35,20 +35,28 @@ print(doc.cats)
 html = displacy.render(doc, style='dep', page=True)
 ```
 
-Not useful for identifying complex "sedition speech", very good at identifying part of text
-citation vs body of text 
-
-![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola2.jpeg "A simple neural network")
+Outcome:
+- High accuracy 96%.  Unable to identify "sedition speech", but extremely good at identifying manuscript format.  I can differentiate between the introductory sections and focuses only on the primary sources.  A very effective tool to separate the primary text from the book.
 
 ## Experiment #2
+Train the model on new entities.  Can the model learn to identify имя, отчество, and/or фамилия?
 
-Created ru_memorial_PATTERNS.JSONL from records in Memorial repo 
-prodigy dataset memorial "Data for Memorial"
+1. Create a list of names to prime the model for pattern matching.  The model will recognize those patterns as name parts and use context to further learn the new entities.   
 
-https://github.com/MemorialInternational/nkvd
+The names should be save in the following format:
+```json
+{"label": "имя", "pattern": "Иосиф"} 
+{"label": "имя", "pattern": "Илья"} 
+```
+ru_memorial_PATTERNS.JSONL from records in [Memorial repo](https://github.com/MemorialInternational/nkvd)
+`prodigy dataset memorial "Data for Memorial"`
+
 prodigy ner.manual memorial xx_ent_wiki_sm КРАМОЛА.txt --label имя,отчество,фамилия
 
 prodigy ner.teach gam xx_ent_wiki_sm КРАМОЛА.txt --patterns ru_memorial_PATTERNS.JSONL --label имя,отчество,фамилия
+
+![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola2.jpeg "A simple neural network")
+
 prodigy ner.batch-train memorial xx_ent_wiki_sm -n 100 --output /Users/ajanco/projects/nkvd/model/ --label имя,отчество,фамилия
 
 https://prodi.gy/features/
