@@ -48,21 +48,22 @@ The names should be save in the following format:
 {"label": "имя", "pattern": "Иосиф"} 
 {"label": "имя", "pattern": "Илья"} 
 ```
-ru_memorial_PATTERNS.JSONL from records in [Memorial repo](https://github.com/MemorialInternational/nkvd)
+
+The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/ru_memorial_PATTERNS.JSONL) and was created from records here [Memorial repo](https://github.com/MemorialInternational/nkvd).
+1. Create a new dataset to store your annotations. 
 `prodigy dataset memorial "Data for Memorial"`
+1. It's often useful to further prime the model by manually annotating the correct answers.  This will give it a better idea of what you'd like it to learn. 
+`prodigy ner.manual memorial xx_ent_wiki_sm КРАМОЛА.txt --label имя,отчество,фамилия`
 
-prodigy ner.manual memorial xx_ent_wiki_sm КРАМОЛА.txt --label имя,отчество,фамилия
-
-prodigy ner.teach gam xx_ent_wiki_sm КРАМОЛА.txt --patterns ru_memorial_PATTERNS.JSONL --label имя,отчество,фамилия
+1. Now you can start the annotation tool for active learning. 
+`prodigy ner.teach gam xx_ent_wiki_sm КРАМОЛА.txt --patterns ru_memorial_PATTERNS.JSONL --label имя,отчество,фамилия`
 
 ![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola2.jpeg "A simple neural network")
 
-prodigy ner.batch-train memorial xx_ent_wiki_sm -n 100 --output /Users/ajanco/projects/nkvd/model/ --label имя,отчество,фамилия
+1.  Train the model on your patterns and annotations. 
+`prodigy ner.batch-train memorial xx_ent_wiki_sm -n 100 --output /Users/ajanco/projects/nkvd/model/ --label имя,отчество,фамилия`
 
-https://prodi.gy/features/
-file:///Users/ajanco/Downloads/displaCy_7_25.html
+1. Test the model on a text to assess the results. 
 
 
-"You gave me a wonderful master who, made by me, teaches me, and teaching me, knows nothing himself." https://twitter.com/scott_bot/status/1046821426425159680
-
-https://prodi.gy/demo?view_id=ner
+Outcome: 
