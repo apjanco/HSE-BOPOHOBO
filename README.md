@@ -34,7 +34,9 @@ _Machine Learning APIs_ ~
 - For Russian text: [Text Razor](https://www.textrazor.com/demo)
 
 _Distant Viewing_
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OjaY1ZCAAUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 - [Distant Viewing Toolkit](https://github.com/distant-viewing/dvt)
 - [Distant Viewing Tutorial](https://github.com/statsmaths/distant-viewing-tutorial)
 - [Distant Viewing Lab](https://distantviewing.org/)
