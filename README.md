@@ -5,21 +5,18 @@
 ### Neural networks 
 ![alt text](http://neuralnetworksanddeeplearning.com/images/tikz1.png "A simple neural network")
 
+1. Directed acyclic graphgraph (DAG).
 1. Automated Learning. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 1. Machine Learning vs Pattern Matching vs Linear/non-linear Regression
-  - In most cases, the outcome is a pseudo-probability (output of a softmax function). “I get less error if I say cat, so it is probable that this is a cat.”  If I've never seen a dog, I would still say "cat."
-  - Can learn general properties rather than algorythmic precision ("Catness").  
+  - In most cases, the outcome is a pseudo-probability (output of a softmax function). “I get less error if I say cat, so it is more likely that this is a cat compared to other things that I know.”  
+  - Can learn general properties rather than precise patterns.  It can identify a complex "Catness" but not the pattern "Cat."  
   - Deep Learning is heuristic programming. It is an imprecise tool that often, but not always learns what its meant to learn. It does not necessarily think as you might think it ought to. In this way, Deep Learning brings non-human neurodiversity to scholarship. The process of training a neural network is an insightful dialogue between the machine and the programmer.  
   - Naieve creativity. Deep Learning models hold the potential to find solutions and ideas that humans would never even think to look for. 
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
 
 What are neural networks good at? 
-| sequence to sequence | Examples: style transfer, language translation, 
-| categorization (["hotdog, no hotdog"](https://github.com/arielconde/No-Hotdog)) 
-| generation | 
-| computer vision | 
-| natural language processing | 
+| sequence to sequence | categorization | generation | computer vision | natural language processing | 
 
 ---
 
