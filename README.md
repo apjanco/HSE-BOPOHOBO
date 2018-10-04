@@ -11,12 +11,7 @@
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
 
-What are neural networks good for? 
-| Simulation   | Minimum (work weeks) | Average (work weeks) | Maximum (work weeks) |   |
-|--------------|:--------------------:|----------------------|----------------------|---|
-| Benchmark    | 18.56                | 1402.60              | 3752.23              |   |
-| Simple MC    | 48.95                | 2000.28              | 5000.12              |   |
-| Irregular MC | 22.57                | 2142.54              | 5432.75              |   |
+| task 1 | task 2 | task 3 |
 
 ---
 
