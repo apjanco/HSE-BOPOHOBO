@@ -7,6 +7,7 @@
 
 1. Automated Learning
 1. Machine Learning vs Pattern Matching
+1. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 
 _Web Applications for Machine Learning_
 
