@@ -19,3 +19,4 @@ Mia Ridge, [Trying computational data generation and entity extraction](http://w
 - [Distant Viewing Tutorial](https://github.com/statsmaths/distant-viewing-tutorial)
 - [Distant Viewing Lab](https://distantviewing.org/)
 - [Stanford Tutorials on Word Vectors](https://github.com/sul-cidr/dh2018-word-vector-workshops)
+- [Coursera Machine Learning with Google Cloud](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
