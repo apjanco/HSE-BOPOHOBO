@@ -8,6 +8,7 @@ Mia Ridge, [Trying computational data generation and entity extraction](http://w
  
  
 - [Deep Learning Playground](http://104.131.28.158)
+- [Google Machine Learning APIs](https://drive.google.com/file/d/1CO9k589Mbwqz3sBMBSutoSXIarYH4NCP/view?usp=sharing)
 
 *Active Transfer Learning ~
 
