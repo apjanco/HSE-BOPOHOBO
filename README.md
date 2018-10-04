@@ -7,7 +7,10 @@
 
 1. Automated Learning. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 1. Machine Learning vs Pattern Matching vs Linear/non-linear Regression
-
+  - In most cases, the outcome is a pseudo-probability (output of a softmax function). “I get less error if I say cat, so it is probable that this is a cat.”  If I've never seen a dog, I would still say "cat."
+  - Can learn general properties rather than algorythmic precision ("Catness").  
+  - Deep Learning is heuristic programming. It is an imprecise tool that often, but not always learns what its meant to learn. It does not necessarily think as you might think it ought to. In this way, Deep Learning brings non-human neurodiversity to scholarship. 
+  - Naieve creativity. Deep Learning models hold the potential to find solutions and ideas that humans would never even think to look for. 
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
 
