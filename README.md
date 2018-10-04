@@ -14,7 +14,12 @@
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
 
-| task 1 | task 2 | task 3 |
+What are neural networks good at? 
+| sequence to sequence | Examples: style transfer, language translation, 
+| categorization (["hotdog, no hotdog"](https://github.com/arielconde/No-Hotdog)) 
+| generation | 
+| computer vision | 
+| natural language processing | 
 
 ---
 
