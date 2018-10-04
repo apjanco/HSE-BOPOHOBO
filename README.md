@@ -6,8 +6,12 @@
 ![alt text](http://neuralnetworksanddeeplearning.com/images/tikz1.png "A simple neural network")
 
 1. Automated Learning
-1. Machine Learning vs Pattern Matching
+1. Machine Learning vs Pattern Matching vs Linear/non-linear Regression
 1. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
+
+![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
+
+
 
 _Web Applications for Machine Learning_
 
