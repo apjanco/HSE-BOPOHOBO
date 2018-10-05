@@ -35,7 +35,10 @@ _Distant Viewing_
 [![](http://img.youtube.com/vi/OjaY1ZCAAUc/0.jpg)](http://www.youtube.com/watch?v=OjaY1ZCAAUc "")
 
 - [Distant Viewing Toolkit](https://github.com/distant-viewing/dvt)
-- [Distant Viewing Tutorial](https://github.com/statsmaths/distant-viewing-tutorial)
+Experiment: [Solaris](https://www.youtube.com/watch?v=Th__RHsqMfQ)<br>
+[Produced this result (there's a cat?)](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/frame_output.json)
+
+- [Tutorial from DH2018: Distant Viewing with Deep Learning](https://github.com/statsmaths/distant-viewing-tutorial)
 - [Distant Viewing Lab](https://distantviewing.org/)
 
 _Active Transfer Learning_ ~
