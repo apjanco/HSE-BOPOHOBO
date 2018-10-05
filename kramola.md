@@ -56,7 +56,7 @@ The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjan
 `prodigy ner.manual memorial xx_ent_wiki_sm КРАМОЛА.txt --label имя,отчество,фамилия`
 
 1. Now you can start the annotation tool for active learning. 
-`prodigy ner.teach gam xx_ent_wiki_sm КРАМОЛА.txt --patterns ru_memorial_PATTERNS.JSONL --label имя,отчество,фамилия`
+`prodigy ner.teach memorial xx_ent_wiki_sm КРАМОЛА.txt --patterns ru_memorial_PATTERNS.JSONL --label имя,отчество,фамилия`
 
 ![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola2.jpeg "A simple neural network")
 
