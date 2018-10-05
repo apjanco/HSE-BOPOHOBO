@@ -30,18 +30,18 @@ _Machine Learning APIs_ ~
 - [Google Machine Learning APIs](https://drive.google.com/file/d/1CO9k589Mbwqz3sBMBSutoSXIarYH4NCP/view?usp=sharing)
 - For Russian text: [Text Razor](https://www.textrazor.com/demo)
 
-_Distant Viewing_
+_Distant Viewing (Lauren Tilton and Taylor Arnold)_
 
 [![](http://img.youtube.com/vi/OjaY1ZCAAUc/0.jpg)](http://www.youtube.com/watch?v=OjaY1ZCAAUc "")
 
-- [Distant Viewing Toolkit](https://github.com/distant-viewing/dvt)
+- [Distant Viewing Toolkit](https://github.com/distant-viewing/dvt) <br>
 Experiment: [Solaris](https://www.youtube.com/watch?v=Th__RHsqMfQ)<br>
 [Produced this result (there's a cat?)](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/frame_output.json)
 
 - [Tutorial from DH2018: Distant Viewing with Deep Learning](https://github.com/statsmaths/distant-viewing-tutorial)
 - [Distant Viewing Lab](https://distantviewing.org/)
 
-_Active Transfer Learning_ ~
+_Active Transfer Learning (Matthew Honnibal and Ines Montani_ ~
 
 - [Prodigy](https://prodi.gy/demo?view_id=ner)
 - [_Kramola_ Experiments](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/kramola.md)
