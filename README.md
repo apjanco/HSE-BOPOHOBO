@@ -1,4 +1,4 @@
-# HSE-BOPOHOBO
+# HSE-BOPOHOBO   github.com/apjanco/HSE-BOPOHOBO/
 ## Practical Applications of Deep Learning in the Digital Humanities
 ## Практическое применение глубокого обучения в области цифровых гуманитарных наук
 > Я говорю по-русски. Пожалуйста, задавайте вопросы на русском или английском языках.
