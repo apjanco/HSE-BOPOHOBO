@@ -36,7 +36,7 @@ html = displacy.render(doc, style='dep', page=True)
 ```
 
 Outcome:
-- High accuracy 96%.  Unable to identify "sedition speech", but extremely good at identifying the manuscript format.  I can differentiate between the introductory sections and focuses only on the primary sources.  A very effective tool to separate the primary text from the book.
+- High accuracy 98%.  Unable to identify "sedition speech", but extremely good at identifying the manuscript format.  I can differentiate between the introductory sections and focuses only on the primary sources.  A very effective tool to separate the primary text from the book.
 
 ## Experiment #2
 Train the model on new entities.  Can the model learn to identify имя, отчество, and/or фамилия?
