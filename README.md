@@ -1,4 +1,5 @@
-# HSE-BOPOHOBO   github.com/apjanco/HSE-BOPOHOBO/
+# HSE-BOPOHOBO   
+## (github.com/apjanco/HSE-BOPOHOBO/)
 ## Practical Applications of Deep Learning in the Digital Humanities
 ## Практическое применение глубокого обучения в области цифровых гуманитарных наук
 > Я говорю по-русски. Пожалуйста, задавайте вопросы на русском или английском языках.
@@ -30,7 +31,7 @@ _Machine Learning APIs_ ~
 - [Google Machine Learning APIs](https://drive.google.com/file/d/1CO9k589Mbwqz3sBMBSutoSXIarYH4NCP/view?usp=sharing)
 - For Russian text: [Text Razor](https://www.textrazor.com/demo)
 
-_Distant Viewing (Lauren Tilton and Taylor Arnold)_
+_Distant Viewing (Lauren Tilton and Taylor Arnold)_ ~
 
 [![](http://img.youtube.com/vi/OjaY1ZCAAUc/0.jpg)](http://www.youtube.com/watch?v=OjaY1ZCAAUc "")
 
