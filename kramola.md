@@ -63,6 +63,9 @@ The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjan
 1.  Train the model on your patterns and annotations. 
 `prodigy ner.batch-train memorial xx_ent_wiki_sm -n 100 --output /Users/ajanco/projects/nkvd/model/ --label имя,отчество,фамилия`
 
+1. Establish if the model has sufficent data and starting patterns.<br>
+`prodigy ner.train-curve memorial /Users/ajanco/projects/nkvd/model --n-iter 10 --eval-split 0.2 --dropout 0.2 --n-samples 4`
+
 1. Test the model on a text to assess the results.
 ```python
 import spacy
