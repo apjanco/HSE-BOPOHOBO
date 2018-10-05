@@ -1,6 +1,8 @@
 # HSE-BOPOHOBO
 ## Practical Applications of Deep Learning in the Digital Humanities
 ## Практическое применение глубокого обучения в области цифровых гуманитарных наук
+> Я говорю и понимаю русский язык. Пожалуйста, задавайте вопросы на русском или английском языках.
+> Please feel free to ask me to slow down or repeat unfamiliar words. 
 
 ### Neural networks 
 ![alt text](http://neuralnetworksanddeeplearning.com/images/tikz1.png "A simple neural network")
