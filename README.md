@@ -10,7 +10,7 @@
 1. Automated Learning. [Need the math?](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 1. In most cases, the outcome is a pseudo-probability (output of a softmax function). “I get less error if I say cat, so it is more likely that this is a cat compared to other things that I know.”  
 1. Can learn general properties rather than precise patterns.  It can identify a complex "Catness" but not the pattern "Cat."  
-1. Deep Learning is heuristic programming. It is an imprecise tool that often, but not always learns what its meant to learn. It does not necessarily think as you might think it ought to. In this way, Deep Learning brings non-human neurodiversity to scholarship. The process of training a neural network is an insightful (often confused) dialogue between the model and its programmer.  
+1. Deep Learning is heuristic programming. It is an imprecise tool that often, but not always learns what it's meant to learn. It does not necessarily think as you might think it ought to. In this way, Deep Learning brings non-human neurodiversity to scholarship. The process of training a neural network is an insightful (often confused) dialogue between the model and its programmer.  
 1. Naive creativity. Deep Learning models hold the potential to find solutions and ideas that humans would never even think to look for. 
 
 ![alt text](http://104.131.28.158/static/n_net1.gif "A simple neural network")
