@@ -66,7 +66,19 @@ The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjan
 1. Establish if the model has sufficent data and starting patterns.<br>
 `prodigy ner.train-curve memorial /Users/ajanco/projects/nkvd/model --n-iter 10 --eval-split 0.2 --dropout 0.2 --n-samples 4`
 
-1. Test the model on a text to assess the results.
+```
+Starting with model /Users/ajanco/projects/nkvd/model
+Dropout: 0.2  Batch size: 32  Iterations: 10  Samples: 4
+
+%          RIGHT      WRONG      ACCURACY
+25%        13         10         0.57       +0.57
+50%        15         9          0.62       +0.06
+75%        10         13         0.43       -0.19
+100%       12         12         0.50       +0.07
+```
+VERY Poor results and not a data problem, but a learning problem. Names are very sparse data and difficult to identify from context.  The model knows Stalin (high frequency in the text) and names that begin at the beginning of paragraphs (Family, I.O.).  However, the tokenizer is combining I.O. as one imiia. 
+
+1. View the results in context.
 ```python
 import spacy
 from spacy import displacy
@@ -83,4 +95,6 @@ with open('names.html', 'w') as f:
 Outcome: 
 ![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/names.jpeg "A simple neural network")
 
-Far from perfect, but a good start.  Not bad for the 3 hours on the plane from London.  
+This one is an open question.  The model seems able to learn names that is has seen several times in the text, but not names that appear only once. Similarly, when names appear in a consistent place and format in the document (the sections Из хроники событий) several times, there are clear improvements.  I could try further annotations (I only made 300) or the spaCy's PhraseMatcher function, which would simply tag all the names in the patterns from Memorial.  
+
+It's not ready for use, but it's not bad for the product of 3 hours on a plane from London.  
