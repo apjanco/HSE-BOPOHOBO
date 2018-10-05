@@ -95,6 +95,6 @@ with open('names.html', 'w') as f:
 Outcome: 
 ![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/names.jpeg "A simple neural network")
 
-This one is an open question.  The model seems able to learn names that is has seen several times in the text, but not names that appear only once. Similarly, when names appear in a consistent place and format in the document (the sections Из хроники событий) several times, there are clear improvements.  I could try further annotations (I only made 300) or the spaCy's PhraseMatcher function, which would simply tag all the names in the patterns from Memorial.  
+This one is an open question.  The model seems able to learn names that is has seen several times in the text, but not names that appear only once. Similarly, when names appear in a consistent place and format in the document (the sections Из хроники событий) several times, there are clear improvements.  I could try further annotations (I only made 300) or the spaCy's PhraseMatcher function, which would simply tag all the names in the patterns from Memorial.  I could also filter the results using the list of names to remove non-name results.    
 
 It's not ready for use, but it's not bad for the product of 3 hours on a plane from London.  
