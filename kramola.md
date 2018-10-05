@@ -67,3 +67,6 @@ The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjan
 
 
 Outcome: 
+![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/names.jpeg "A simple neural network")
+
+Far from perfect, but a good start.  Not bad for the 3 hours on the plane from London.  
