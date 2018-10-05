@@ -63,9 +63,20 @@ The file is available here [ru_memorial_PATTERNS.JSONL](https://github.com/apjan
 1.  Train the model on your patterns and annotations. 
 `prodigy ner.batch-train memorial xx_ent_wiki_sm -n 100 --output /Users/ajanco/projects/nkvd/model/ --label имя,отчество,фамилия`
 
-1. Test the model on a text to assess the results. 
-
-
+1. Test the model on a text to assess the results.
+```python
+import spacy
+from spacy import displacy
+nlp = spacy.load('/Users/ajanco/projects/nkvd/model')
+with open('/Users/ajanco/projects/kramola/КРАМОЛА.txt', 'r') as f:
+    text = f.read()
+doc = nlp(u'{}'.format(text))
+colors = {'ФАМИЛИЯ': 'linear-gradient(90deg, #aa9cfc, #fc9ce7)', 'ИМЯ': 'linear-gradient(90deg, #aa9cfc, #fc9ce7)', 'ОЧЕСТВО':'linear-gradient(90deg, #aa9cfc, #fc9ce7)' }
+options = {'ents': ['ФАМИЛИЯ', 'ОЧЕСТВО', 'ИМЯ' ], 'colors': colors}
+html = displacy.render(doc, style='ent', options=options, page=True)
+with open('names.html', 'w') as f:
+    f.write(html)
+```
 Outcome: 
 ![alt text](https://github.com/apjanco/HSE-BOPOHOBO/blob/master/names.jpeg "A simple neural network")
 
